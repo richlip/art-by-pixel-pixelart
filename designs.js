@@ -19,9 +19,9 @@
   // Grid erstellen
   function makeGrid(width, height) {
     $table.innerHTML = '';
-    for (let row = 0; row < width; row++) {
+    for (let row = 0; row < height; row++) {
       let newRow = $table.insertRow();
-        for (let cell= 0; cell < height; cell++ ) {
+        for (let cell= 0; cell < width; cell++ ) {
           let newCell = newRow.insertCell();
           newCell.onclick = changeColor;
         }

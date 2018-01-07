@@ -6,7 +6,7 @@ part of the udacity fewd
 The project has three parts:
 
 ## index.html
-this is the html part.
+this is the html part
 
 ## design.js
 the javascript part
